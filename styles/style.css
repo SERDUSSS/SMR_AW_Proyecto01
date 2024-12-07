@@ -1,23 +1,35 @@
 body {
-    background: #333;
-}
-
-* {
+    background: #1c2412;
     color: aliceblue;
 }
 
 .cabecera {
-    background: #222;
     left:0;
     top:0;
     width: 100%;
-    position: fixed;
-    display: inline-block;
+    position:fixed;
+    white-space: nowrap;
+    margin-right: 40px;
+    float: right;
 }
 
 .cabecera img {
     height: 4em;
-    width: 12em;
+    width: auto;
+    float: left;
+    cursor: pointer;
+}
+
+.cabecera .contenedor {
+    position: fixed;
+    top: 60%;
+    bottom: 40%;
+    width: 100%;
+}
+
+.contenedor .cabecera .usuario {
+    position: absolute;
+    left: 1000px;
 }
 
 .marquesina {
@@ -48,6 +60,7 @@ body {
 .texto {
     display: inline-block;
     margin-right: 160px;
+    cursor:default;
 }
 
 @keyframes mover {
@@ -60,5 +73,14 @@ body {
 }
 
 .cuerpo {
-    margin-top: 40px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.cuerpo .categorias {
+    background: #457656;
+    text-align: center;
+    cursor: pointer;
 }
