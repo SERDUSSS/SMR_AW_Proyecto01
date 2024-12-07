@@ -1,0 +1,64 @@
+body {
+    background: #333;
+}
+
+* {
+    color: aliceblue;
+}
+
+.cabecera {
+    background: #222;
+    left:0;
+    top:0;
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+}
+
+.cabecera img {
+    height: 4em;
+    width: 12em;
+}
+
+.marquesina {
+    left:0;
+    top:64px;
+    background: #000;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+}
+
+.marquesina .contenedor, .marquesina .contenedor2 {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.marquesina .contenedor2 {
+    position: absolute;
+    top: 0;
+    left: 150%;
+}
+
+.marquesina .contenedor, .marquesina .contenedor2 {
+    animation: mover 20s linear infinite;
+}
+
+.texto {
+    display: inline-block;
+    margin-right: 160px;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.cuerpo {
+    margin-top: 40px;
+}
