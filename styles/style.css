@@ -28,8 +28,12 @@ body {
 }
 
 .contenedor .cabecera .usuario {
-    position: absolute;
-    left: 1000px;
+    position: relative;
+    left: 100%;
+}
+
+.invert {
+    filter: invert(100%);
 }
 
 .marquesina {
@@ -83,4 +87,25 @@ body {
     background: #457656;
     text-align: center;
     cursor: pointer;
+    height: 18vh;
+}
+
+.cuerpo .categorias table tr {
+    height: 2vh;
+}
+
+.cuerpo .categorias table tr td {
+    width: 17vh;
+}
+
+.cuerpo .categorias table tr td img {
+    position: relative;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.cuerpo .categorias table tr td p {
+    position: relative;
+    bottom: 12px;
 }
