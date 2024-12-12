@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/cabecera.css">
     <link rel="stylesheet" href="styles/breadcrumb.css">
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/ofertas.css">
 </head>
 <body>
     <div class="cabecera">
@@ -53,3 +53,56 @@
         <li><a href="index.html">Categorias</a></li>
         <li><a href="login.html">Ofertas</a></li>
     </ul>
+
+    <div class="container">
+        <div class="filter">
+            <h2>Filtros de Búsqueda</h2>
+            <form>
+                <label for="price">Precio</label>
+                <select id="price" name="price">
+                    <option value="">Selecciona un rango</option>
+                    <option value="low">0€ - 50€</option>
+                    <option value="medium">51€ - 100€</option>
+                    <option value="high">101€ - 200€</option>
+                </select>
+
+                <label for="ratings">Valoraciones</label>
+                <select id="ratings" name="ratings">
+                    <option value="">Selecciona una opción</option>
+                    <option value="5">★★★★★</option>
+                    <option value="4">★★★★</option>
+                    <option value="3">★★★</option>
+                </select>
+
+                <label for="brand">Marca</label>
+                <input type="text" id="brand" name="brand" placeholder="Ingresa una marca">
+
+                <label for="origin">Origen</label>
+                <input type="text" id="origin" name="origin" placeholder="Ingresa la provincia">
+
+                <button type="submit">Aplicar Filtros</button>
+            </form>
+        </div>
+
+        <div class="products">
+            <h2>Productos</h2>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/150" alt="Burrito Vegano">
+                <p>Burrito Vegano</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/150" alt="Empanadas Veganas">
+                <p>Empanadas Veganas</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/150" alt="Bowl de Acai">
+                <p>Bowl de Acai</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/150" alt="Paella Vegana">
+                <p>Paella Vegana</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
