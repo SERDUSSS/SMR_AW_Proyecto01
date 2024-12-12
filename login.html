@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - VeganExtrem</title>
+    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/cabecera.css">
     <link rel="stylesheet" href="styles/login.css">
 </head>
@@ -16,19 +17,19 @@
             </a>
             
             <form action="" method="post">
-                <img src="assets/lupa.png" alt="Lupa">
+                <img src="assets/iconos/lupa.png" alt="Lupa">
                 <input class="buscador" type="text" name="search" id="search" placeholder="Buscar un producto...">
-                <label for="lenguaje">Lenguaje:</label>
-
-                <select name="lenguajes" id="lenguaje">
+                
+                <label class="lenguajelabel" for="lenguaje">Lenguaje:</label>
+                <select class="lenguaje" name="lenguajes" id="lenguaje">
                     <option value="espanol">🇪🇸 Español</option>
                     <option value="ingles">🇺🇸 Ingles</option>
                     <option value="frances">🇫🇷 Frances</option>
                     <option value="portugues">🇵🇹 Portugues</option>
                 </select>
                 
-                <label for="moneda">Moneda:</label>
-                <select name="monedas" id="moneda">
+                <label class="monedalabel" for="moneda">Moneda:</label>
+                <select class="moneda" name="monedas" id="moneda">
                     <option value="euro">Euros (€)</option>
                     <option value="libra">Libras (£)</option>
                     <option value="dolar">Dolares ($)</option>
@@ -37,13 +38,13 @@
             
             <div class="carrito">
                 <a href="carrito.html">
-                    <img class="invert" src="assets/carrito-de-compras.png" alt="Carrito">
+                    <img class="invert" src="assets/iconos/carrito-de-compras.png" alt="Carrito">
                 </a>
             </div>
 
             <div class="usuario">
                 <a href="login.html">
-                    <img class="invert" src="assets/usuario.png" alt="Login">
+                    <img class="invert" src="assets/iconos/usuario.png" alt="Login">
                 </a>
             </div>
         </div>
@@ -54,7 +55,7 @@
             <h1>Iniciar Sesion</h1>
         </div>
         <br><br><br><br><br><br>
-        <form action="" method="POST">
+        <form action="privado.html" method="POST">
             <div class="campos">
                 <input class="texto" type="email" name="email" id="email" placeholder="Usuario / Correo Electronico">
                 <input class="texto" type="password" name="password" id="password" placeholder="Contraseña"><br>

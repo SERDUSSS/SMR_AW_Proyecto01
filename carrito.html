@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - VeganExtrem</title>
+    <title>Carrito - VeganExtrem</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/cabecera.css">
-    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/breadcrumb.css">
+    <link rel="stylesheet" href="styles/carrito.css">
 </head>
 <body>
     <div class="cabecera">
@@ -50,32 +51,55 @@
         </div>
     </div>
 
-    <div class="contenedor">
-        <div class="titulo">
-            <h1>Registrarse</h1>
+    <div class="cuerpo">
+        <div class="breadcrumb">
+            <h3>Inicio</h1>
+            <p>Carrito</p>
         </div>
-        <br><br><br><br><br><br>
-        <form action="" method="POST">
-            <div class="campos">
-                <input class="texto left" type="text" name="name" id="name" required placeholder="Nombre y Apellidos">
-                <input class="texto right" type="email" name="email" id="email" required placeholder="Correo Electronico">
-                <hr>
-                <input class="texto left" type="text" name="username" id="username" required placeholder="Nombre de Usuario">
-                <input class="texto right" type="password" name="password" id="password" required placeholder="Contraseña">
-                
-                <input class="textogrande" type="text" name="address" id="address" required placeholder="Dirección, localidad y código postal"><br>
-                
-                <label class="labelbirthday" for="birthday">Fecha de nacimiento:</label>
-                <label class="labelnumber" for="number">Numero de telefono:</label><br>
-                <input class="fecha" type="date" name="birthday" id="birthday" required>
-                <input class="numero" type="tel" name="number" id="number" required placeholder="Numero de telefono"><br>
-                
-                <input class="casilla" type="checkbox" name="terms" id="terms" required>
-                <label for="terms">Aceptar terminos y condiciones</label><br>
-                <input class="boton" type="submit" name="submit" id="submit" value="Registrarse"><br>
-                <a href="login.html">Iniciar Sesion</a>
+
+        <div class="carrito">
+            <h2>Carrito</h2>
+            <div class="producto">
+                <img src="assets/comida/ensalada.png" alt="ensalada">
+                <h2>Ensalada Vegana 600g</h2>
+                <form action="">
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" name="quantity" id="quantity" required value="1">
+                </form>
+                <p class="precio">5,50€</p>
+                <a href=""><img src="assets/iconos/papelera-de-reciclaje.png" alt="Borrar"></a>
             </div>
-        </form>
+            <div class="producto">
+                <img src="assets/comida/huevos-veganos.png" alt="huevos">
+                <h2>Huevos Veganos (12 Unidades)</h2>
+                <form action="">
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" name="quantity" id="quantity" required value="1">
+                </form>
+                <p class="precio">3,75€</p>
+                <a href=""><img src="assets/iconos/papelera-de-reciclaje.png" alt="Borrar"></a>
+            </div>
+        </div>
+
+        <div class="checkout">
+            <div class="information">
+                <h3>2 Articulos</h3>
+                <h4>9,25€</h4>
+                <a href="">¿Tiene un codigo promocional?</a>
+            </div>
+            <div class="total">
+                <p>Total (Impuestos y envio inc)</p>
+                <h4>12,35€</h4>
+            </div>
+            <div class="payment">
+                <form action="">
+                    <input type="button" value="Finalizar Compra">
+                </form>
+            </div>
+        </div>
+
+        <a href="index.html">Continuar comprando</a>
     </div>
+
 </body>
 </html>
