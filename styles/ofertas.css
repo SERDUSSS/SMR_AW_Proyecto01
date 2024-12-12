@@ -10,6 +10,8 @@
     padding: 10px;
     margin-top: 11.5svh;
     box-sizing: border-box;
+    background: #262627;
+    border-radius: 14px;
 }
 
 .products {
@@ -20,18 +22,22 @@
 }
 
 .product-item {
-    width: 30%;
+    border-radius: 14px;
+    width: 30vh;
     float: left;
-    margin: 10px;
+    margin: 1.7vh;
     border: 1px solid #ddd;
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    background: #13170c;
 }
 
 .product-item img {
     max-width: 100%;
     height: auto;
+    height:150px;
+    border-radius: 8px;
 }
 
 h2 {
@@ -48,4 +54,18 @@ h2 {
     padding: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
+}
+
+.filter form .boton {
+    position: relative;
+    width: 80%;
+    left: 4vh;
+    border-radius: 12px;
+}
+
+.filter select, .filter input {
+    border-radius: 8px;
+    color: #ddd;
+    background: #333;
+    border: 1px solid #aaa;
 }
