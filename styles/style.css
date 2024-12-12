@@ -29,10 +29,10 @@ body {
 
 .cabecera form img {
     position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 17px;
-    left: 41vh;
+    width: 26px;
+    height: 26px;
+    top: 19px;
+    left: 42vh;
     z-index: 1;
 }
 
@@ -42,7 +42,9 @@ body {
     height: 5vh;
     top: 2vh;
     left: 40vh;
-    text-indent: 38px;
+    text-indent: 42px;
+    border-radius: 12px;
+    border: 1 solid #ccc;
     z-index: 0;
 }
 
