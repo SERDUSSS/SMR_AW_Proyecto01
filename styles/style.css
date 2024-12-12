@@ -44,3 +44,84 @@
     width: 40px;
     height: 40px;
 }
+
+.contact-info {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #262627;
+    border: 1px solid #bbb;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #ddd;
+    text-align: center;
+}
+
+.contact-info div {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-left: 4px solid #04be67;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.contact-info div:last-child {
+    margin-bottom: 0;
+}
+
+.contact-info span {
+    font-weight: bold;
+}
+
+.contact-info p {
+    margin: 0;
+    color: #bbb;
+}
+
+.newsletter {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #262627;
+    border: 1px solid #bbb;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #ddd;
+}
+
+.newsletter input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    background-color: #333333;
+    color: #ddd;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #04be67;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #039f57;
+}
