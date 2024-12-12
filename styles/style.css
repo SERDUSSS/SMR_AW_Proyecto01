@@ -125,3 +125,8 @@
 .newsletter button:hover {
     background-color: #039f57;
 }
+
+.categoria {
+    position: relative;
+    left: 10vh;
+}

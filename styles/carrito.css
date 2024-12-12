@@ -4,7 +4,8 @@
     top: 22vh;
     background: #272626;
     width: 45%;
-    border-radius: 30px;
+    border: 1px solid #bbb;
+    border-radius: 24px;
 }
 
 .carrito h2 {
@@ -81,7 +82,8 @@
     top: 22vh;
     background: #272626;
     width: 45%;
-    border-radius: 30px;
+    border-radius: 24px;
+    border: 1px solid #bbb;
 }
 
 .information {
@@ -144,4 +146,95 @@
     font-size: 1.2rem;
     font-weight: bolder;
     cursor: pointer;
+}
+
+.categoria {
+    margin-bottom: 40px;
+}
+
+.categoria h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.producto {
+    width: 22%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+.producto:nth-child(4n) {
+    margin-right: 0;
+}
+
+.contenedor {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    box-shadow: 0px 0px 14px #000;
+    border-radius: 10px;
+}
+
+.contenedor h4 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.contenedor .texto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    position: relative;
+    left: 6%;
+    width: 90%;
+}
+
+.contenedor .comida {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 2px 2px #ccc;
+}
+
+.contenedor a {
+    background: orange;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8em;
+    padding: 10px 20px;
+    position: relative;
+    width: 10%;
+    bottom: 32px;
+    left: 50%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px #ffb520;
+}
+
+.contenedor .preciocontenedor {
+    position: relative;
+    top: 2px;
+    background: #333;
+    color: #fff;
+    width: 40%;
+    height: 9%;
+    left: 24px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.contenedor .preciocontenedor .precio {
+    position: relative;
+    top: 22%;
+}
+
+.contenedor .carrito {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    right: 4px;
 }
