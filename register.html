@@ -14,20 +14,20 @@
         <br><br><br><br><br><br>
         <form action="" method="POST">
             <div class="campos">
-                <input class="texto left" type="text" name="name" id="name" placeholder="Nombre y Apellidos">
-                <input class="texto right" type="email" name="email" id="email" placeholder="Correo Electronico">
+                <input class="texto left" type="text" name="name" id="name" required placeholder="Nombre y Apellidos">
+                <input class="texto right" type="email" name="email" id="email" required placeholder="Correo Electronico">
                 <hr>
-                <input class="texto left" type="text" name="username" id="username" placeholder="Nombre de Usuario">
-                <input class="texto right" type="password" name="password" id="password" placeholder="Contraseña">
+                <input class="texto left" type="text" name="username" id="username" required placeholder="Nombre de Usuario">
+                <input class="texto right" type="password" name="password" id="password" required placeholder="Contraseña">
                 
-                <input class="textogrande" type="text" name="address" id="address" placeholder="Dirección, localidad y código postal"><br>
+                <input class="textogrande" type="text" name="address" id="address" required placeholder="Dirección, localidad y código postal"><br>
                 
                 <label class="labelbirthday" for="birthday">Fecha de nacimiento:</label>
                 <label class="labelnumber" for="number">Numero de telefono:</label><br>
-                <input class="fecha" type="date" name="birthday" id="birthday">
-                <input class="numero" type="tel" name="number" id="number" placeholder="Numero de telefono"><br>
+                <input class="fecha" type="date" name="birthday" id="birthday" required>
+                <input class="numero" type="tel" name="number" id="number" required placeholder="Numero de telefono"><br>
                 
-                <input class="casilla" type="checkbox" name="rememberme" id="rememberme">
+                <input class="casilla" type="checkbox" name="terms" id="terms" required>
                 <label for="terms">Aceptar terminos y condiciones</label><br>
                 <input class="boton" type="submit" name="submit" id="submit" value="Registrarse"><br>
                 <a href="login.html">Iniciar Sesion</a>

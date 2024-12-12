@@ -1,0 +1,61 @@
+body {
+    background: #1c2412;
+    color: aliceblue;
+}
+
+.cabecera {
+    left:0;
+    top:0;
+    width: 100%;
+    position:absolute;
+    white-space: nowrap;
+    margin-right: 40px;
+    float: right;
+}
+
+.cabecera .contenedor {
+    position: absolute;
+    top: 60%;
+    bottom: 40%;
+    width: 100%;
+}
+
+.cabecera .logo {
+    height: 4em;
+    width: auto;
+    float: left;
+    cursor: pointer;
+}
+
+.cabecera form img {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 19px;
+    left: 42vh;
+    z-index: 1;
+}
+
+.cabecera form .buscador {
+    position: absolute;
+    width: 80vh;
+    height: 5vh;
+    top: 2vh;
+    left: 40vh;
+    text-indent: 42px;
+    border-radius: 12px;
+    border: 1 solid #ccc;
+    z-index: 0;
+}
+
+.cabecera .usuario img {
+    position: absolute;
+    left: 176vh;
+    top: 7px;
+    width: 50px;
+    height: 50px;
+}
+
+.invert {
+    filter: invert(100%);
+}
