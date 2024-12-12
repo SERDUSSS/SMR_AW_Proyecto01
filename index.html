@@ -13,43 +13,39 @@
 </head>
 <body>
     <div class="cabecera">
-        <div class="contenedor"></div>
+        <a href="index.html">
+            <img class="logo" src="assets/logo/png/logo-no-background.png" alt="VeganExtrem logo">
+        </a>
+        
+        <form action="" method="post">
+            <img src="assets/iconos/lupa.png" alt="Lupa">
+            <input class="buscador" type="text" name="search" id="search" placeholder="Buscar un producto...">
             
-            <a href="index.html">
-                <img class="logo" src="assets/logo/png/logo-no-background.png" alt="VeganExtrem logo">
+            <label class="lenguajelabel" for="lenguaje">Lenguaje:</label>
+            <select class="lenguaje" name="lenguajes" id="lenguaje">
+                <option value="espanol">🇪🇸 Español</option>
+                <option value="ingles">🇺🇸 Ingles</option>
+                <option value="frances">🇫🇷 Frances</option>
+                <option value="portugues">🇵🇹 Portugues</option>
+            </select>
+            
+            <label class="monedalabel" for="moneda">Moneda:</label>
+            <select class="moneda" name="monedas" id="moneda">
+                <option value="euro">Euros (€)</option>
+                <option value="libra">Libras (£)</option>
+                <option value="dolar">Dolares ($)</option>
+            </select>
+        </form>
+        
+        <div class="carrito">
+            <a href="carrito.html">
+                <img class="invert" src="assets/iconos/carrito-de-compras.png" alt="Carrito">
             </a>
-            
-            <form action="" method="post">
-                <img src="assets/iconos/lupa.png" alt="Lupa">
-                <input class="buscador" type="text" name="search" id="search" placeholder="Buscar un producto...">
-                
-                <label class="lenguajelabel" for="lenguaje">Lenguaje:</label>
-                <select class="lenguaje" name="lenguajes" id="lenguaje">
-                    <option value="espanol">🇪🇸 Español</option>
-                    <option value="ingles">🇺🇸 Ingles</option>
-                    <option value="frances">🇫🇷 Frances</option>
-                    <option value="portugues">🇵🇹 Portugues</option>
-                </select>
-                
-                <label class="monedalabel" for="moneda">Moneda:</label>
-                <select class="moneda" name="monedas" id="moneda">
-                    <option value="euro">Euros (€)</option>
-                    <option value="libra">Libras (£)</option>
-                    <option value="dolar">Dolares ($)</option>
-                </select>
-            </form>
-            
-            <div class="carrito">
-                <a href="carrito.html">
-                    <img class="invert" src="assets/iconos/carrito-de-compras.png" alt="Carrito">
-                </a>
-            </div>
-
-            <div class="usuario">
-                <a href="login.html">
-                    <img class="invert" src="assets/iconos/usuario.png" alt="Login">
-                </a>
-            </div>
+        </div>
+        <div class="usuario">
+            <a href="login.html">
+                <img class="invert" src="assets/iconos/usuario.png" alt="Login">
+            </a>
         </div>
     </div>
 
