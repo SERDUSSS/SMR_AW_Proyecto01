@@ -1,3 +1,147 @@
 .carrito {
-    background: #ccc;
+    position: absolute;
+    left: 2vh;
+    top: 19vh;
+    background: #272626;
+    width: 45%;
+    border-radius: 30px;
+}
+
+.carrito h2 {
+    text-indent: 1em;
+}
+
+.producto {
+    height: 120px;
+}
+
+.carrito .producto img {
+    position: relative;
+    height: 100px;
+    width: 140px;
+    left: 6vh;
+    border: 2px solid #333;
+    border-radius: 16px 0 0 16px;
+}
+
+.carrito .producto h4 {
+    position: relative;
+    top: -6px;
+    left: 16px;
+}
+
+.carrito .producto form {
+    position: relative;
+    bottom: 6px;
+    left: 16px;
+}
+
+.carrito .producto form input {
+    width: 7vh;
+    margin-left: 6px;
+}
+
+.carrito .producto .precio {
+    position: relative;
+    bottom: 88px;
+    left: 280px;
+}
+
+.carrito .producto a {
+    position: relative;
+    bottom: 88px;
+    left: 245px;
+    border: none;
+    border-radius: 0px;
+    width: 30px;
+    height: 30px;
+    filter: invert(1) sepia(20) saturate(100000%) hue-rotate(-65deg);
+}
+
+.carrito .producto .papelera {
+    border: none;
+    border-radius: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.informacion {
+    position: relative;
+    bottom: 109px;
+    left: 180px;
+    height: 100px;
+    width: 340px;
+    border: 2px solid #333;
+    border-radius: 0 16px 16px 0;
+}
+
+.checkout {
+    position: absolute;
+    right: 2vh;
+    top: 19vh;
+    background: #272626;
+    width: 45%;
+    border-radius: 30px;
+}
+
+.information {
+    border: 1px solid #666;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    height: 60px;
+}
+
+.information h3 {
+    position: relative;
+    top: 12px;
+    text-indent: 30px;
+}
+
+.information h4 {
+    position: relative;
+    bottom: 32px;
+    left: 404px;
+}
+
+.total {
+    border: 1px solid #666;
+    border-right: 0;
+    border-left: 0;
+    height: 60px;
+}
+
+.total p {
+    position: relative;
+    top: 1px;
+    text-indent: 16px;
+}
+
+.total h4 {
+    position: relative;
+    bottom: 42px;
+    left: 400px;
+}
+
+.payment {
+    border: 1px solid #666;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    height: 60px;
+}
+
+.payment input {
+    position: relative;
+    top: 1.5vh;
+    left: 16vh;
+    width: 60%;
+    height: 40px;
+    border-radius: 40px;
+    background: #5ab831;
+    border: #000 solid 1px;
+    box-shadow: 0px 0px 20px 0px #347419;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor: pointer;
 }

@@ -52,32 +52,37 @@
     </div>
 
     <div class="cuerpo">
-        <div class="breadcrumb">
-            <h3>Inicio</h1>
-            <p>Carrito</p>
-        </div>
+        <br><br><br>
+        <ul class="breadcrumb">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Carrito</a></li>
+        </ul>
 
         <div class="carrito">
             <h2>Carrito</h2>
             <div class="producto">
                 <img src="assets/comida/ensalada.png" alt="ensalada">
-                <h2>Ensalada Vegana 600g</h2>
-                <form action="">
-                    <label for="quantity">Cantidad:</label>
-                    <input type="number" name="quantity" id="quantity" required value="1">
-                </form>
-                <p class="precio">5,50€</p>
-                <a href=""><img src="assets/iconos/papelera-de-reciclaje.png" alt="Borrar"></a>
+                <div class="informacion">
+                    <h4>Ensalada Vegana 600g</h4>
+                    <form action="">
+                        <label for="quantity">Cantidad:</label>
+                        <input type="number" name="quantity" id="quantity" required value="1">
+                    </form>
+                    <p class="precio">5,50€</p>
+                    <a href=""><img class="papelera" src="assets/iconos/papelera-de-reciclaje.png" alt="Borrar"></a>
+                </div>
             </div>
             <div class="producto">
                 <img src="assets/comida/huevos-veganos.png" alt="huevos">
-                <h2>Huevos Veganos (12 Unidades)</h2>
-                <form action="">
-                    <label for="quantity">Cantidad:</label>
-                    <input type="number" name="quantity" id="quantity" required value="1">
-                </form>
-                <p class="precio">3,75€</p>
-                <a href=""><img src="assets/iconos/papelera-de-reciclaje.png" alt="Borrar"></a>
+                <div class="informacion">
+                    <h4>Huevos Veganos (12 Unidades)</h4>
+                    <form action="">
+                        <label for="quantity">Cantidad:</label>
+                        <input type="number" name="quantity" id="quantity" required value="1">
+                    </form>
+                    <p class="precio">3,75€</p>
+                    <a href=""><img class="papelera" src="assets/iconos/papelera-de-reciclaje.png" alt="Borrar"></a>
+                </div>
             </div>
         </div>
 
@@ -85,10 +90,9 @@
             <div class="information">
                 <h3>2 Articulos</h3>
                 <h4>9,25€</h4>
-                <a href="">¿Tiene un codigo promocional?</a>
             </div>
             <div class="total">
-                <p>Total (Impuestos y envio inc)</p>
+                <p>Total (Impuestos + Envio inc.)</p>
                 <h4>12,35€</h4>
             </div>
             <div class="payment">
@@ -97,8 +101,6 @@
                 </form>
             </div>
         </div>
-
-        <a href="index.html">Continuar comprando</a>
     </div>
 
 </body>
