@@ -4,17 +4,20 @@ body {
 }
 
 .cuerpo {
-    position: fixed;
+    position: relative;
     left: 0;
     width: 100%;
     margin-top: 80px;
 }
 
 .cuerpo .categorias {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     background: #457656;
     text-align: center;
     cursor: pointer;
-    height: 18vh;
+    height: 16vh;
 }
 
 .cuerpo .categorias table tr {
@@ -35,4 +38,14 @@ body {
 .cuerpo .categorias table tr td p {
     position: relative;
     bottom: 12px;
+}
+
+.cuerpo .categorias table tr td a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.newsletter img {
+    width: 40px;
+    height: 40px;
 }

@@ -1,11 +1,12 @@
 .marquesina {
-    left:0;
-    top:11vh;
     background: #000;
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    position: absolute;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .marquesina .contenedor, .marquesina .contenedor2 {
@@ -37,3 +38,4 @@
         transform: translateX(-100%);
     }
 }
+
