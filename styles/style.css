@@ -7,29 +7,51 @@ body {
     left:0;
     top:0;
     width: 100%;
-    position:fixed;
+    position:absolute;
     white-space: nowrap;
     margin-right: 40px;
     float: right;
 }
 
-.cabecera img {
+.cabecera .contenedor {
+    position: absolute;
+    top: 60%;
+    bottom: 40%;
+    width: 100%;
+}
+
+.cabecera .logo {
     height: 4em;
     width: auto;
     float: left;
     cursor: pointer;
 }
 
-.cabecera .contenedor {
-    position: fixed;
-    top: 60%;
-    bottom: 40%;
-    width: 100%;
+.cabecera form img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 17px;
+    left: 41vh;
+    z-index: 1;
 }
 
-.contenedor .cabecera .usuario {
-    position: relative;
-    left: 100%;
+.cabecera form .buscador {
+    position: absolute;
+    width: 80vh;
+    height: 5vh;
+    top: 2vh;
+    left: 40vh;
+    text-indent: 38px;
+    z-index: 0;
+}
+
+.cabecera .usuario img {
+    position: absolute;
+    left: 176vh;
+    top: 7px;
+    width: 50px;
+    height: 50px;
 }
 
 .invert {
@@ -43,7 +65,7 @@ body {
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    position: fixed;
+    position: absolute;
 }
 
 .marquesina .contenedor, .marquesina .contenedor2 {
