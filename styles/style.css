@@ -88,6 +88,8 @@
 }
 
 .newsletter {
+    position: relative;
+    top: 6vh;
     width: 90%;
     max-width: 400px;
     margin: 20px auto;
@@ -144,7 +146,7 @@
 
 .diferenciador {
     width: 40vh;
-    height: 40vh;
+    height: 46vh;
     box-shadow: 0px 0px 14px #000;
     border-radius: 10px;
     display: inline-block;
@@ -154,7 +156,7 @@
 
 .diferenciador h4 {
     position: relative;
-    bottom: 4vh;
+    bottom: 2vh;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.3em;
@@ -162,9 +164,11 @@
 }
 
 .diferenciador .imagen {
-    width: 100%;
-    height: 100px;
-    border-radius: 10px 10px 0 0;
+    position: relative;
+    left: 5vh;
+    top: 2vh;
+    width: 76%;
+    height: 60%;
 }
 
 .diferenciador .texto {
