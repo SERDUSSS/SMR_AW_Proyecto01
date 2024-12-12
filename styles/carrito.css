@@ -160,9 +160,8 @@
 
 .producto {
     width: 22%;
-    float: left;
     margin-right: 2%;
-    margin-bottom: 20px;
+    margin-bottom: 1vh;
 }
 
 .producto:nth-child(4n) {
