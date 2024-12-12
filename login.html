@@ -6,6 +6,7 @@
     <title>Login - VeganExtrem</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/cabecera.css">
+    <link rel="stylesheet" href="styles/breadcrumb.css">
     <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
@@ -50,6 +51,12 @@
         </div>
     </div>
 
+    <br><br><br>
+    <ul class="breadcrumb">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="login.html">Iniciar Sesion</a></li>
+    </ul>
+
     <div class="contenedor">
         <div class="titulo">
             <h1>Iniciar Sesion</h1>
@@ -57,8 +64,8 @@
         <br><br><br><br><br><br>
         <form action="privado.html" method="POST">
             <div class="campos">
-                <input class="texto" type="email" name="email" id="email" placeholder="Usuario / Correo Electronico">
-                <input class="texto" type="password" name="password" id="password" placeholder="Contraseña"><br>
+                <input class="texto" type="email" name="email" id="email" required placeholder="Usuario / Correo Electronico">
+                <input class="texto" type="password" name="password" id="password" required placeholder="Contraseña"><br>
                 <input class="casilla" type="checkbox" name="rememberme" id="rememberme">
                 <label for="rememberme">Recordarme</label>
                 <a>Olvido la contraseña?</a><br><br>
