@@ -13,6 +13,7 @@
     text-align: center;
     cursor: pointer;
     height: 16vh;
+    z-index: 1;
 }
 
 .cuerpo .categorias table tr {
@@ -54,6 +55,8 @@
     border: 1px solid #bbb;
     border-radius: 14px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 14vh;
+    float: left;
 }
 
 .contact-info h2 {
@@ -94,6 +97,8 @@
     border-radius: 14px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    float: right;
+    margin-right: 14vh;
 }
 
 .newsletter h2 {
