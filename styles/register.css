@@ -6,8 +6,8 @@ body {
 .contenedor {
     background: #272626;
     position: absolute;
-    top: 12.5%;
-    bottom: 12.5%;
+    top: 15%;
+    bottom: 9%;
     left: 25%;
     right: 25%;
     text-align: center;
@@ -45,9 +45,9 @@ body {
 }
 
 .contenedor hr {
-    position: fixed;
-    bottom: 369px;
-    left: 541px;
+    position: absolute;
+    bottom: 45.5vh;
+    left: 37.1vh;
     transform: rotate(90deg);
     width: 120px;
     color: #eee;

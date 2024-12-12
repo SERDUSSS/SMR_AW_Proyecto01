@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - VeganExtrem</title>
+    <link rel="stylesheet" href="styles/cabecera.css">
     <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
+    <div class="cabecera">
+        <div class="contenedor"></div>
+            
+            <a href="index.html">
+                <img class="logo" src="assets/logo/png/logo-no-background.png" alt="VeganExtrem logo">
+            </a>
+            
+            <form action="" method="post">
+                <img src="assets/lupa.png" alt="Lupa">
+                <input class="buscador" type="text" name="search" id="search" placeholder="Buscar un producto...">
+                <label for="lenguaje">Lenguaje:</label>
+
+                <select name="lenguajes" id="lenguaje">
+                    <option value="espanol">🇪🇸 Español</option>
+                    <option value="ingles">🇺🇸 Ingles</option>
+                    <option value="frances">🇫🇷 Frances</option>
+                    <option value="portugues">🇵🇹 Portugues</option>
+                </select>
+                
+                <label for="moneda">Moneda:</label>
+                <select name="monedas" id="moneda">
+                    <option value="euro">Euros (€)</option>
+                    <option value="libra">Libras (£)</option>
+                    <option value="dolar">Dolares ($)</option>
+                </select>
+            </form>
+            
+            <div class="carrito">
+                <a href="carrito.html">
+                    <img class="invert" src="assets/carrito-de-compras.png" alt="Carrito">
+                </a>
+            </div>
+
+            <div class="usuario">
+                <a href="login.html">
+                    <img class="invert" src="assets/usuario.png" alt="Login">
+                </a>
+            </div>
+        </div>
+    </div>
+
     <div class="contenedor">
         <div class="titulo">
             <h1>Iniciar Sesion</h1>
