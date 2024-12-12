@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comida Preparada - VeganExtrem</title>
+    <title>Comidas Preparadas - VeganExtrem</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/cabecera.css">
     <link rel="stylesheet" href="styles/breadcrumb.css">
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/categorias.css">
 </head>
 <body>
     <div class="cabecera">
@@ -51,5 +51,58 @@
     <ul class="breadcrumb">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="index.html">Categorias</a></li>
-        <li><a href="login.html">Comida preparada</a></li>
+        <li><a href="login.html">Comidas Preparadas</a></li>
     </ul>
+
+    <div class="container">
+        <div class="filter">
+            <h2>Filtros de Búsqueda</h2>
+            <form>
+                <label for="price">Precio</label>
+                <select id="price" name="price">
+                    <option value="">Selecciona un rango</option>
+                    <option value="low">0€ - 50€</option>
+                    <option value="medium">51€ - 100€</option>
+                    <option value="high">101€ - 200€</option>
+                </select>
+
+                <label for="ratings">Valoraciones</label>
+                <select id="ratings" name="ratings">
+                    <option value="">Selecciona una opción</option>
+                    <option value="5">★★★★★</option>
+                    <option value="4">★★★★</option>
+                    <option value="3">★★★</option>
+                </select>
+
+                <label for="brand">Marca</label>
+                <input type="text" id="brand" name="brand" placeholder="Ingresa una marca">
+
+                <label for="origin">Origen</label>
+                <input type="text" id="origin" name="origin" placeholder="Ingresa la provincia">
+
+                <input class="boton" type="submit" value="Aplicar Filtros">
+            </form>
+        </div>
+
+        <div class="products">
+            <h2>Productos</h2>
+            <div class="product-item">
+                <img src="assets/comida/ensaladarusa.avif" alt="Ensalada Rusa">
+                <p>Ensalada Rusa</p>
+            </div>
+            <div class="product-item">
+                <img src="assets/comida/chili-vegano.jpg" alt="Chili Vegano">
+                <p>Chili Vegano</p>
+            </div>
+            <div class="product-item">
+                <img src="assets/comida/sushi-vegano.jpg" alt="Sushi Vegano">
+                <p>Sushi Vegano</p>
+            </div>
+            <div class="product-item">
+                <img src="assets/comida/pasta-curry.jpg" alt="Pasta al Curry">
+                <p>Pasta al Curry</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

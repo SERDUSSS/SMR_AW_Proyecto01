@@ -41,6 +41,9 @@
 }
 
 h2 {
+    position: relative;
+    right: 45.2vh;
+    top: 11vh;
     font-size: 18px;
 }
 
