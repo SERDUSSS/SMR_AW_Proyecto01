@@ -72,3 +72,8 @@ h2 {
     background: #333;
     border: 1px solid #aaa;
 }
+
+.product-item a {
+    color: #ddd;
+    text-decoration: none;
+}
