@@ -6,10 +6,10 @@ body {
 .contenedor {
     background: #272626;
     position: absolute;
-    top: 15%;
-    bottom: 15%;
-    left: 35%;
-    right: 35%;
+    top: 12.5%;
+    bottom: 12.5%;
+    left: 25%;
+    right: 25%;
     text-align: center;
     border-radius: 20px;
     box-shadow: 0px 0px 30px 1px #000;
@@ -27,8 +27,8 @@ body {
     cursor: default;
 }
 
-.contenedor .texto {
-    width: 80%;
+.contenedor .texto, .contenedor .textogrande {
+    width: 40%;
     height: 46px;
     margin-top: 0px;
     margin-bottom: 14px;
@@ -40,11 +40,67 @@ body {
     text-indent: 14px;
 }
 
+.contenedor .left {
+    margin-right: 10px;
+}
+
+.contenedor hr {
+    position: fixed;
+    bottom: 369px;
+    left: 541px;
+    transform: rotate(90deg);
+    width: 120px;
+    color: #eee;
+    box-shadow: 0 0 10px #fff;
+}
+
+.contenedor .right {
+    margin-left: 10px;
+}
+
+.contenedor .textogrande {
+    width: 85%;
+    margin-bottom: 6px;
+}
+
 .contenedor label {
     color: #eee;
     position: relative;
     top: 3px;
     right: 6px;
+}
+
+.contenedor .labelbirthday {
+    position: relative;
+    right: 56px;
+}
+
+.contenedor .labelnumber {
+    position: relative;
+    left: 50px;
+}
+
+.contenedor .fecha {
+    position: relative;
+    height: 22px;
+    right: 44px;
+    top: 5px;
+    color: #ccc;
+    background: #555;
+    border: #666;
+    border-radius: 6px;
+}
+
+.contenedor .numero {
+    position: relative;
+    height: 22px;
+    left: 71px;
+    top: 5px;
+    margin-bottom: 8px;
+    color: #ccc;
+    background: #555;
+    border: #666;
+    border-radius: 6px;
 }
 
 .contenedor .casilla {
@@ -57,6 +113,7 @@ body {
 }
 
 .contenedor .boton {
+    margin-top: 10px;
     width: 80%;
     height: 50px;
     border-radius: 40px;

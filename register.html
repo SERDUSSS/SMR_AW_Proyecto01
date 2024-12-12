@@ -14,12 +14,22 @@
         <br><br><br><br><br><br>
         <form action="" method="POST">
             <div class="campos">
-                <input class="texto" type="text" name="name" id="name" placeholder="Nombre de usuario">
-                <input class="texto" type="email" name="email" id="email" placeholder="Correo electronico">
-                <input class="texto" type="password" name="password" id="password" placeholder="Contraseña"><br>
+                <input class="texto left" type="text" name="name" id="name" placeholder="Nombre y Apellidos">
+                <input class="texto right" type="email" name="email" id="email" placeholder="Correo Electronico">
+                <hr>
+                <input class="texto left" type="text" name="username" id="username" placeholder="Nombre de Usuario">
+                <input class="texto right" type="password" name="password" id="password" placeholder="Contraseña">
+                
+                <input class="textogrande" type="text" name="address" id="address" placeholder="Dirección, localidad y código postal"><br>
+                
+                <label class="labelbirthday" for="birthday">Fecha de nacimiento:</label>
+                <label class="labelnumber" for="number">Numero de telefono:</label><br>
+                <input class="fecha" type="date" name="birthday" id="birthday">
+                <input class="numero" type="tel" name="number" id="number" placeholder="Numero de telefono"><br>
+                
                 <input class="casilla" type="checkbox" name="rememberme" id="rememberme">
-                <label for="rememberme">Aceptar terminos y condiciones</label><br><br>
-                <input class="boton" type="submit" name="submit" id="submit" value="Iniciar Sesion"><br>
+                <label for="terms">Aceptar terminos y condiciones</label><br>
+                <input class="boton" type="submit" name="submit" id="submit" value="Registrarse"><br>
                 <a href="login.html">Iniciar Sesion</a>
             </div>
         </form>
