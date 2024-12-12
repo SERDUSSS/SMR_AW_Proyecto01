@@ -237,3 +237,7 @@
     top: 5px;
     right: 4px;
 }
+
+form input {
+    border-radius: 6px;
+}
