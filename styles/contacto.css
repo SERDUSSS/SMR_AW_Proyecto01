@@ -1,0 +1,118 @@
+.datos {
+    position: relative;
+    top: 4vh;
+    left: 30vh;
+    width: 60vh;
+    height: 60vh;
+    float: left;
+    border-radius: 20px 0 0 20px;
+    background: #262627;
+    border-right: 2px solid #000;
+}
+
+.container form {
+    position: relative;
+    top: 4vh;
+    left: 30vh;
+    width: 80vh;
+    height: 60vh;
+    float: left;
+    background: #262627;
+    border-radius: 0 20px 20px 0;
+    text-indent: 3vh;
+}
+
+.container form * {
+    position: relative;
+    top: 4vh;
+    left: 3vh;
+}
+
+.container form .info {
+    position: relative;
+    top: 6vh;
+}
+
+.datos h2 {
+    position: relative;
+    left: 10vh;
+    margin-bottom: 5vh;
+}
+
+.container form input[type="number"] {
+    width: 7vh;
+    border: 0;
+    border-radius: 4px;
+}
+
+.container form input[type="submit"] {
+    position: relative;
+    font-size: larger;
+    background: #333;
+    color: #eee;
+    top: 10vh;
+    left: 18vh;
+    height: 8vh;
+    width: 48vh;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+.container form textarea {
+    width: 80%;
+    height: 8vh;
+    border-bottom: 4vh;
+    border-radius: 6px;
+}
+
+.container form input {
+    border-radius: 4px;
+    margin-left: 1.2vh;
+}
+
+.container form input[type="checkbox"] {
+    position: relative;
+    left: 8vh;
+}
+
+.container form label[for="casilla"] {
+    position: relative;
+    left: 8vh;
+}
+
+.container form label[for="mensaje"] {
+    position: relative;
+    top: 2.5vh;
+}
+
+.datos img {
+    position: relative;
+    left: 4vh;
+    width: 36px;
+    margin-bottom: 0px;
+}
+
+.datos p {
+    position: relative;
+    bottom: 7.8vh;
+    left: 12vh;
+    margin-bottom: 0px;
+    margin-top: 0.8vh;
+}
+
+.datos hr {
+    position: relative;
+    bottom: 3vh;
+    left: 3vh;
+    width: 90%;
+    margin: 0px;
+}
+
+.grande {
+    font-size: 2em;
+    margin-bottom: 10vh;
+}
+
+.container form br {
+    margin-bottom: 2vh;
+}

@@ -1,0 +1,111 @@
+.container {
+    position: relative;
+    top: 4vh;
+    left: 7vh;
+    width: 190vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    background: #262627;
+    border-radius: 20px;
+}
+
+.container h2 {
+    position: static;
+}
+
+.container .stars {
+    position: relative;
+    bottom: 6.8vh;
+    left: 14vh;
+    font-size: 1.2em;
+    color: #ffc107;
+    margin-bottom: -6vh;
+}
+
+.container .description {
+    position: relative;
+    left: 20px;
+    max-width: 90%;
+}
+
+.container h2 {
+    color:#eee;
+    position: relative;
+    left: 6vh;
+    font-size: 2em;
+    margin-bottom: 4vh;
+    margin-top: 8vh;
+}
+
+.container b {
+    font-weight: 10em;
+}
+
+.fila {
+    position: relative;
+    left: 5vh;
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.cuadro {
+    width: 50vh;
+    margin-inline-start: 7vh;
+    border-radius: 10px;
+    background: #333;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.container li {
+    position: relative;
+    left: 8vh;
+    margin-bottom: 2vh;
+    max-width: 90%;
+}
+
+.cuadro .tipo {
+    position: relative;
+    left: 2vh;
+    margin: 0;
+    margin-top: 1vh;
+    color: #88ca25;
+}
+
+.cuadro h4 {
+    position: relative;
+    left: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    color: #eee;
+    max-width: 80%;
+}
+
+.fecha {
+    position: relative;
+    top: 2vh;
+    left: 3vh;
+    color: #999;
+}
+
+.tiempo {
+    position: relative;
+    left: 28vh;
+    height: 0;
+    bottom: 3.5vh;
+    color: #999;
+}
+
+.cuadro b {
+    color: #ddd;
+}
+
+.description {
+    color: #ccc;
+    margin-bottom: -2vh;
+}

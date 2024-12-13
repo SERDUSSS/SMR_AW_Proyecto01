@@ -1,0 +1,95 @@
+.container {
+    position: relative;
+    top: 4vh;
+    left: 20vh;
+    width: 160vh;
+    padding-bottom: 10vh;
+    float: left;
+    background: #262627;
+    border-radius: 20px;
+}
+
+.container h2 {
+    position: static;
+}
+
+.container .stars {
+    position: relative;
+    bottom: 6.8vh;
+    left: 14vh;
+    font-size: 1.2em;
+    color: #ffc107;
+    margin-bottom: -6vh;
+}
+
+.container .description {
+    position: relative;
+    left: 20px;
+    max-width: 90%;
+}
+
+.container h2 {
+    color:#eee;
+    position: relative;
+    left: 6vh;
+    font-size: 2em;
+    margin-bottom: 4vh;
+    margin-top: 8vh;
+}
+
+.container p {
+    position: relative;
+    left: 9vh;
+    color: #ddd;
+    max-width: 90%;
+}
+
+.container .fila p {
+    color: #000;
+}
+
+.container b {
+    font-weight: 10em;
+}
+
+.fila {
+    position: relative;
+    left: 5vh;
+    display: flex;
+}
+
+.cuadro1, .cuadro2, .cuadro3 {
+    width: 40vh;
+    margin-inline-start: 7vh;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+img {
+    width: 20vh;
+}
+
+.cuadro1 {
+    background: #5c9cff;
+}
+
+.cuadro2 {
+    background: #ccaaaa;
+}
+
+.cuadro3 {
+    background: #007777;
+}
+
+.container li {
+    position: relative;
+    left: 8vh;
+    margin-bottom: 2vh;
+    max-width: 90%;
+}
+
+.cuadro1 p, .cuadro2 p, .cuadro3 p {
+    position: relative;
+    left: 2vh;
+}

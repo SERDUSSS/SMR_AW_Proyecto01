@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio - VeganExtrem</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/cabecera.css">
+    <link rel="stylesheet" href="styles/breadcrumb.css">
+    <link rel="stylesheet" href="styles/envio.css">
+</head>
+<body>
+    <div class="cabecera">
+        <a href="index.html">
+            <img class="logo" src="assets/logo/png/logo-no-background.png" alt="VeganExtrem logo">
+        </a>
+        
+        <form action="" method="post">
+            <img src="assets/iconos/lupa.png" alt="Lupa">
+            <input class="buscador" type="text" name="search" id="search" placeholder="Buscar un producto...">
+            
+            <label class="lenguajelabel" for="lenguaje">Lenguaje:</label>
+            <select class="lenguaje" name="lenguajes" id="lenguaje">
+                <option value="espanol">🇪🇸 Español</option>
+                <option value="ingles">🇺🇸 Ingles</option>
+                <option value="frances">🇫🇷 Frances</option>
+                <option value="portugues">🇵🇹 Portugues</option>
+            </select>
+            
+            <label class="monedalabel" for="moneda">Moneda:</label>
+            <select class="moneda" name="monedas" id="moneda">
+                <option value="euro">Euros (€)</option>
+                <option value="libra">Libras (£)</option>
+                <option value="dolar">Dolares ($)</option>
+            </select>
+        </form>
+        
+        <div class="carrito">
+            <a href="carrito.html">
+                <img class="invert" src="assets/iconos/carrito-de-compras.png" alt="Carrito">
+            </a>
+        </div>
+        <div class="usuario">
+            <a href="login.html">
+                <img class="invert" src="assets/iconos/usuario.png" alt="Login">
+            </a>
+        </div>
+    </div>
+
+    <br><br><br>
+    <ul class="breadcrumb">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="envio.html">Envio</a></li>
+    </ul>
+
+    <div class="container">
+        <h2>¿Cuánto tardaré en recibir mi pedido?</h2>
+        <p>Los pedidos llegarán a tu domicilio en 24/48h en función del a hora a la que pidas:</p>
+        <div class="fila">
+            <div class="cuadro1">
+                <p>DE <b>LUNES A JUEVES</b> PIDELO <b>ANTES</b> DE LAS <b>13:30h</b></p>
+                <img src="assets/iconos/reloj.png" alt="reloj">
+                <p>Y <b>RECIBELO</b> AL <b>DIA SIGUIENTE ANTES</b> DE LAS <b>19:00H</b></p>
+            </div>
+            <div class="cuadro2">
+                <p>DE <b>LUNES A JUEVES</b> PIDELO <b>DESPUES</b> DE LAS <b>13:30h</b></p>
+                <img src="assets/iconos/reloj.png" alt="reloj">
+                <p>Y <b>RECIBELO</b> EN <b>DOS DIAS LABORABLES ANTES</b> DE LAS <b>19:00H</b></p>
+            </div>
+            <div class="cuadro3">
+                <p>DE <b>VIERNES A DOMINGO</b> PIDELO A <b>CUALQUIER HORA</b></p>
+                <img src="assets/iconos/reloj.png" alt="reloj">
+                <p>Y <b>RECIBELO</b> EL <b>MARTES ANTES</b> DE LAS <b>19:00H</b></p>
+            </div>
+        </div>
+
+        <h2>¿Cómo preparamos tu pedido?</h2>
+
+        <p>Los pasos generales que seguimos para preparar tu pedido son los siguientes:</p>
+
+        <ol>
+            <li>Recibimos tu pedido. Una vez realizado el pago, recibiremos tu pedido en nuestros sistemas para proceder a su preparación cuanto antes.</li>
+            <li>Preparamos tu pedido con el embalaje óptimo. Tratamos cada producto según su temperatura de conservación y lo preparamos para que lo recibas en las mejores condiciones posibles</li>
+            <li>Se lo entregamos a la empresa de envíos. La empresa de transporte viene hasta nuestra tienda y recoge tu pedido para procesarlo</li>
+            <li>Lo entregamos en tu domicilio en óptimas condiciones. Dado que estaremos en contacto constante con la empresa de envío, recibirás tu pedido en las mejores condiciones en el plazo acordado.</li>
+        </ol>
+
+        <div class="fila">
+            <div class="cuadro1">
+                <p>SI TU <b>PEDIDO</b> INCLUYE PRODUCTOS <b>SECOS</b> UTILIZAMOS</p>
+                <img src="assets/iconos/caja.png" alt="paquete">
+                <p>EL <b>EMBALAJE OPTIMO</b> PARA QUE <b>TUS PRODUCTOS</b> SE MANTENGAN <b>INTACTOS</b></p>
+            </div>
+            <div class="cuadro2">
+                <p>SI TU <b>PEDIDO</b> INCLUYE PRODUCTOS <b>FRIOS</b> UTILIZAMOS</p>
+                <img src="assets/iconos/caja.png" alt="paquete">
+                <p><b>EMBALAJE ISOTERMICO</b> PARA <b>MANTENER</b> LA <b>CADENA DE FRIO</b></p>
+            </div>
+            <div class="cuadro3">
+                <p>SI TU <b>PEDIDO</b> INCLUYE PRODUCTOS <b>CONGELADOS</b> UTILIZAMOS</p>
+                <img src="assets/iconos/caja.png" alt="paquete">
+                <p><b>EMBALAJE ISOTERMICO</b> PARA <b>MANTENER</b> LA <b>CADENA DE FRIO</b></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
