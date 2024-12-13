@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/cabecera.css">
     <link rel="stylesheet" href="styles/breadcrumb.css">
-    <link rel="stylesheet" href="styles/categorias.css">
+    <link rel="stylesheet" href="styles/alimento.css">
 </head>
 <body>
     <div class="cabecera">
@@ -51,12 +51,30 @@
     <ul class="breadcrumb">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="index.html">Categorias</a></li>
-        <li><a href="preparadas.html">Comidas preparadas</a></li>
+        <li><a href="ofertas.html">Ofertas</a></li>
         <li><a href="burrito.html">Burrito vegano</a></li>
     </ul>
 
     <div class="container">
+        <img class="imagen" src="assets/comida/burrito-vegano.webp" alt="Burrito vegano">
         
+        <div class="informacion">
+            <h2>Burrito vegano</h2>
+            <p><b>Marca</b> UIO's</p>
+            <hr>
+            <p>Valoracion:</p><p class="stars">★★★★★</p>
+            <hr>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quia adipisci aliquam ipsam, in eaque exercitationem aperiam ut repudiandae voluptatem unde blanditiis rerum, ipsum enim quas provident dolorem deserunt consequuntur.</p>
+            <hr>
+            <h3>10€</h3>
+            <form action="">
+                <label for="quantity">Cantidad:</label>
+                <input type="number" name="quantity" id="quantity" value="1" required max="100">
+                <input type="submit" name="submit" id="submit" value="Añadir al carrito">
+            </form>
+        </div>
     </div>
+
+    
 </body>
 </html>
