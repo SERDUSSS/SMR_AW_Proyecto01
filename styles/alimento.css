@@ -8,7 +8,7 @@
     border-radius: 20px 0 0 20px;
 }
 
-.informacion {
+.info {
     position: relative;
     top: 4vh;
     left: 20vh;
@@ -21,7 +21,11 @@
     text-indent: 3vh;
 }
 
-.informacion .stars {
+.info h2 {
+    position: static;
+}
+
+.info .stars {
     position: relative;
     bottom: 6.8vh;
     left: 14vh;
@@ -30,14 +34,14 @@
     margin-bottom: -6vh;
 }
 
-.informacion .description {
+.info .description {
     text-indent: 0px;
     position: relative;
     left: 20px;
     max-width: 90%;
 }
 
-.informacion h3 {
+.info h3 {
     position: relative;
     color:#dfd1b7;
     bottom: 3vh;
@@ -45,18 +49,18 @@
     margin-bottom: 0px;
 }
 
-.informacion form {
+.info form {
     position: relative;
     bottom: 6vh;
 }
 
-.informacion form input[type="number"] {
+.info form input[type="number"] {
     width: 7vh;
     border: 0;
     border-radius: 4px;
 }
 
-.informacion form input[type="submit"] {
+.info form input[type="submit"] {
     position: relative;
     font-size: larger;
     background: #333;
@@ -67,4 +71,21 @@
     width: 48vh;
     border: 1px solid #aaa;
     border-radius: 8px;
+}
+
+.products {
+    position: relative;
+    left: 21vh;
+    margin-top: 10vh;
+    border-radius: 20px 20px 0 0;
+    background: #11160c;
+}
+
+.products h3 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 4px;
+    margin-top: 0;
+    position: relative;
+    text-align: center;
 }
